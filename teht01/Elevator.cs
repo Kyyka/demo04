@@ -24,6 +24,14 @@ namespace teht01
                 {
                     floor = value;
                 }
+                else if (value < 1)
+                {
+                    Console.WriteLine("Floor is too small!!");
+                }
+                else if (value > 5)
+                {
+                    Console.WriteLine("Floor is too big!!");
+                }
                    
 
             }
